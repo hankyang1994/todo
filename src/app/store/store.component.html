@@ -15,8 +15,10 @@
         [class.active]="cat == selectedCategory"
         (click)="changeCategory(cat)"
       >
+      (click)="selectedPage = 1"
         {{ cat }}
       </button>
+      
     </div>
 
     <div class="col-9 p-2">
